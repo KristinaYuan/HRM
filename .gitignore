@@ -2,6 +2,9 @@
 /wandb/
 # checkpoints
 /checkpoints/
+# Slurm run logs
+/slurm/*.out
+/slurm/*.err
 # cache
 /cache/
 # data
