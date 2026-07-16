@@ -1,5 +1,5 @@
 OMP_NUM_THREADS=8 torchrun --nproc-per-node 1 evaluate.py \
-  checkpoint=checkpoints/maze-single/step_208330 \
+  checkpoint=/data/yuanjiayi/HRM/checkpoints/maze-single/step_145831 \
   'save_outputs=[]'
 
 step_20833
